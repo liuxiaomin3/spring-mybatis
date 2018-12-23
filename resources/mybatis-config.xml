@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<!--  LOG4J的实现-->
+		<setting name="logImpl" value="LOG4J"/>
+	</settings>
+    <!--类型别名 -->
+    <typeAliases>
+        <package name="pojo" />
+    </typeAliases>
+    <!-- <environments default="">
+     	连接信息
+    </environments> -->
+   <!--  <mappers>
+    	sql映射文件位置
+    </mappers> -->
+</configuration>
