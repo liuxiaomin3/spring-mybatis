@@ -17,6 +17,7 @@ public class Test {
 	public static void main(String[] args) throws ParseException, IOException {
 		System.out.println("=========>left");
 		System.out.println("======>spring-mybatis4");
+		System.out.println("======>spring-mybatis");
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml","applicationContext-user.xml","applicationContext-order.xml");
 		UserService userService = (UserService)ctx.getBean("userService");
 		//UserService userService2 = (UserService)ctx.getBean("userService");
