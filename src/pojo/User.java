@@ -4,19 +4,19 @@ import java.util.Date;
 
 public class User {
     private Integer id;           // id
-    private String  userCode;     // 鐢ㄦ埛缂栫爜
-    private String  userName;     // 鐢ㄦ埛鍚嶇О
-    private String  userPassword; // 鐢ㄦ埛瀵嗙爜
-    private Integer gender;       // 鎬у埆
-    private Date    birthday;     // 鍑虹敓鏃ユ湡
-    private String  phone;        // 鐢佃瘽
-    private String  address;      // 鍦板潃
-    private Integer userRole;     // 鐢ㄦ埛瑙掕壊ID
-    private Integer createdBy;    // 鍒涘缓鑰�
-    private Date    creationDate; // 鍒涘缓鏃堕棿
-    private Integer modifyBy;     // 鏇存柊鑰�
-    private Date    modifyDate;   // 鏇存柊鏃堕棿
-    private String  userRoleName; // 鐢ㄦ埛瑙掕壊鍚嶇О
+    private String  userCode;     // 閻€劍鍩涚紓鏍垳
+    private String  userName;     // 閻€劍鍩涢崥宥囆�
+    private String  userPassword; // 閻€劍鍩涚�鍡欑垳
+    private Integer gender;       // 閹冨焼
+    private Date    birthday;     // 閸戣櫣鏁撻弮銉︽埂
+    private String  phone;        // 閻絻鐦�
+    private String  address;      // 閸︽澘娼�
+    private Integer userRole;     // 閻€劍鍩涚憴鎺曞ID
+    private Integer createdBy;    // 閸掓稑缂撻懓锟�    private Date    creationDate; // 閸掓稑缂撻弮鍫曟？
+    private Date creationDate;
+    private Integer modifyBy;     // 閺囧瓨鏌婇懓锟�    private Date    modifyDate;   // 閺囧瓨鏌婇弮鍫曟？
+    private Date modifyDate;
+    private String  userRoleName; // 閻€劍鍩涚憴鎺曞閸氬秶袨
 
     public Integer getId() {
         return id;
