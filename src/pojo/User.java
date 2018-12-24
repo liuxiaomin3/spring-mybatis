@@ -3,20 +3,20 @@ package pojo;
 import java.util.Date;
 
 public class User {
-    private Integer id;           // id
-    private String  userCode;     // 閻€劍鍩涚紓鏍垳
-    private String  userName;     // 閻€劍鍩涢崥宥囆�
-    private String  userPassword; // 閻€劍鍩涚�鍡欑垳
-    private Integer gender;       // 閹冨焼
-    private Date    birthday;     // 閸戣櫣鏁撻弮銉︽埂
-    private String  phone;        // 閻絻鐦�
-    private String  address;      // 閸︽澘娼�
-    private Integer userRole;     // 閻€劍鍩涚憴鎺曞ID
-    private Integer createdBy;    // 閸掓稑缂撻懓锟�    private Date    creationDate; // 閸掓稑缂撻弮鍫曟？
+    private Integer id;           
+    private String  userCode;     
+    private String  userName;     
+    private String  userPassword; 
+    private Integer gender;       
+    private Date    birthday;     
+    private String  phone;        
+    private String  address;      
+    private Integer userRole;     
+    private Integer createdBy;    
     private Date creationDate;
-    private Integer modifyBy;     // 閺囧瓨鏌婇懓锟�    private Date    modifyDate;   // 閺囧瓨鏌婇弮鍫曟？
+    private Integer modifyBy;    
     private Date modifyDate;
-    private String  userRoleName; // 閻€劍鍩涚憴鎺曞閸氬秶袨
+    private String  userRoleName; 
 
     public Integer getId() {
         return id;
