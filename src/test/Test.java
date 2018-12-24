@@ -15,6 +15,7 @@ import service.UserService;
 public class Test {
 
 	public static void main(String[] args) throws ParseException, IOException {
+		System.out.println("=========>right");
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml","applicationContext-user.xml","applicationContext-order.xml");
 		UserService userService = (UserService)ctx.getBean("userService");
 		//UserService userService2 = (UserService)ctx.getBean("userService");
