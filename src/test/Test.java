@@ -18,6 +18,7 @@ public class Test {
 		System.out.println("=========>left");
 		System.out.println("======>spring-mybatis4");
 		System.out.println("======>spring-mybatis");
+		System.out.println("woshizhangsan");
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml","applicationContext-user.xml","applicationContext-order.xml");
 		UserService userService = (UserService)ctx.getBean("userService");
 		//UserService userService2 = (UserService)ctx.getBean("userService");
