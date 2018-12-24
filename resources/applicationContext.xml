@@ -15,8 +15,8 @@
     http://www.springframework.org/schema/context/spring-context-3.2.xsd 
     "> 
 	
-	<!-- <import resource="applicationContext-user.xml"/>
-	<import resource="applicationContext-order.xml"/> -->
+	<import resource="applicationContext-user.xml"/>
+	<import resource="applicationContext-order.xml"/>
 	
 	<!--  读取属性文件
 	-->
